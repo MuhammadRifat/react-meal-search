@@ -20,7 +20,7 @@ const Meal = () => {
             <Container>
                 <Row>
                 {
-                    meals?.map(meal => <MealDetail meal={meal}></MealDetail>)
+                    meals?.map(meal => <MealDetail meal={meal} key={meal.idMeal}></MealDetail>)
                 }
                 </Row>
             </Container>

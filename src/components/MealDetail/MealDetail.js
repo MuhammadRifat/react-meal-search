@@ -4,7 +4,7 @@ import ThumbUpIcon from '@material-ui/icons/ThumbUp';
 import ThumbDownIcon from '@material-ui/icons/ThumbDown';
 
 const MealDetail = (props) => {
-    const {strMeal, strMealThumb, strArea, strCategory} = props.meal;
+    const {strMeal, strMealThumb, strArea} = props.meal;
     const [likeIcon, setLikeIcon] = useState('');
     const [disLikeIcon, setDisLikeIcon] = useState('');
     // const handleLikeBtn = () => {
